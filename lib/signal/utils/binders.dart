@@ -1,8 +1,8 @@
-import 'package:crypto_tracker/models/crypto_model.dart';
-import 'package:crypto_tracker/ui/styles/kcolors.dart';
-import 'package:crypto_tracker/ui/views/main_view/main_view_models.dart';
-import 'package:crypto_tracker/ui/widgets/graph.dart';
-import 'package:crypto_tracker/utils/string_helpers.dart';
+import 'package:freshproject/signal/models/crypto_model.dart';
+import 'package:freshproject/signal/ui/styles/kcolors.dart';
+import 'package:freshproject/signal/ui/views/main_view/main_view_models.dart';
+import 'package:freshproject/signal/ui/widgets/graph.dart';
+import 'package:freshproject/signal/utils/string_helpers.dart';
 
 abstract class Binders {
   static List<Plot> getPlotsFromCryptoModel(List<CryptoModel> cryptoModel) {

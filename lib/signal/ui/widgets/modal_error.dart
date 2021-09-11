@@ -1,4 +1,4 @@
-import 'package:crypto_tracker/ui/widgets/dialog_wrapper.dart';
+import 'package:freshproject/signal/ui/widgets/dialog_wrapper.dart';
 import 'package:flutter/material.dart';
 
 class ModalError extends StatelessWidget {

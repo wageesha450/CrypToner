@@ -1,6 +1,6 @@
-import 'package:crypto_tracker/ui/views/main_view/main_view_models.dart';
-import 'package:crypto_tracker/ui/widgets/dialog_wrapper.dart';
-import 'package:crypto_tracker/utils/binders.dart';
+import 'package:freshproject/signal/ui/views/main_view/main_view_models.dart';
+import 'package:freshproject/signal/ui/widgets/dialog_wrapper.dart';
+import 'package:freshproject/signal/utils/binders.dart';
 import 'package:flutter/material.dart';
 
 class ModalFiatSelector extends StatelessWidget {

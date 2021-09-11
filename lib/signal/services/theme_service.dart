@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:crypto_tracker/utils/enums.dart';
+import 'package:freshproject/signal/utils/enums.dart';
 
 class ThemeService {
 

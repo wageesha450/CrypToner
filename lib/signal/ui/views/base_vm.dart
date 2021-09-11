@@ -1,4 +1,4 @@
-import 'package:crypto_tracker/utils/enums.dart';
+import 'package:freshproject/signal/utils/enums.dart';
 import 'package:flutter/foundation.dart';
 
 abstract class BaseVM extends ChangeNotifier {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 class CoinCard extends StatelessWidget {
   CoinCard({ 
-    @required this.name,
+    this.name,
     @required this.symbol,
     @required this.imageUrl,
     @required this.price,
@@ -34,8 +34,9 @@ class CoinCard extends StatelessWidget {
           color:Colors.indigo[900],
           borderRadius: BorderRadius.circular(20),
           boxShadow: [ 
-            BoxShadow( 
-              color: Colors.grey[500],
+            BoxShadow(              
+              color: (Colors.grey[500])!,
+
               offset: Offset(4, 4),
               blurRadius: 10,
               spreadRadius: 1,

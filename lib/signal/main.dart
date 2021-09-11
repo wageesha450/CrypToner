@@ -1,5 +1,5 @@
-import 'package:crypto_tracker/ui/views/theme_builder/theme_builder.dart';
-import 'package:crypto_tracker/ui/views/main_view/main_view.dart';
+import 'package:freshproject/signal/ui/views/theme_builder/theme_builder.dart';
+import 'package:freshproject/signal/ui/views/main_view/main_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {

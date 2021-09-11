@@ -1,7 +1,7 @@
-import 'package:crypto_tracker/ui/styles/kcolors.dart';
-import 'package:crypto_tracker/ui/views/base_view.dart';
-import 'package:crypto_tracker/ui/views/theme_builder/theme_builder_vm.dart';
-import 'package:crypto_tracker/utils/enums.dart';
+import 'package:freshproject/signal/ui/styles/kcolors.dart';
+import 'package:freshproject/signal/ui/views/base_view.dart';
+import 'package:freshproject/signal/ui/views/theme_builder/theme_builder_vm.dart';
+import 'package:freshproject/signal/utils/enums.dart';
 import 'package:flutter/material.dart';
 
 class ThemeBuilder extends StatefulWidget {

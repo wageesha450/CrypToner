@@ -1,12 +1,12 @@
-import 'package:crypto_tracker/ui/views/base_view.dart';
-import 'package:crypto_tracker/ui/widgets/crypto_card.dart';
-import 'package:crypto_tracker/ui/views/main_view/main_view_models.dart';
-import 'package:crypto_tracker/ui/widgets/graph.dart';
-import 'package:crypto_tracker/ui/views/main_view/main_view_vm.dart';
-import 'package:crypto_tracker/ui/widgets/modal_error.dart';
-import 'package:crypto_tracker/ui/widgets/modal_fiat_selector.dart';
-import 'package:crypto_tracker/utils/binders.dart';
-import 'package:crypto_tracker/utils/enums.dart';
+import 'package:freshproject/signal/ui/views/base_view.dart';
+import 'package:freshproject/signal/ui/widgets/crypto_card.dart';
+import 'package:freshproject/signal/ui/views/main_view/main_view_models.dart';
+import 'package:freshproject/signal/ui/widgets/graph.dart';
+import 'package:freshproject/signal/ui/views/main_view/main_view_vm.dart';
+import 'package:freshproject/signal/ui/widgets/modal_error.dart';
+import 'package:freshproject/signal/ui/widgets/modal_fiat_selector.dart';
+import 'package:freshproject/signal/utils/binders.dart';
+import 'package:freshproject/signal/utils/enums.dart';
 import 'package:flutter/material.dart';
 
 class MainView extends StatefulWidget {

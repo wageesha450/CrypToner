@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:crypto_tracker/models/crypto_model.dart';
-import 'package:crypto_tracker/utils/string_helpers.dart';
+import 'package:freshproject/signal/models/crypto_model.dart';
+import 'package:freshproject/signal/utils/string_helpers.dart';
 
 abstract class ICryptoDataService {
   List<CryptoModel> data = [];
