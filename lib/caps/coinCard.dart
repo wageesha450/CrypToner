@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 class CoinCard extends StatelessWidget {
   CoinCard({ 
-    this.name,
-    @required this.symbol,
-    @required this.imageUrl,
-    @required this.price,
-    @required this.marketcap,
-    @required this.change,
-    @required this.changePercentage,
+    required this.name,
+    required this.symbol,
+    required this.imageUrl,
+    required this.price,
+    required this.marketcap,
+    required this.change,
+    required this.changePercentage,
     
 
   });
@@ -60,13 +60,15 @@ class CoinCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(20),
           boxShadow: [ 
             BoxShadow( 
-              color: Colors.blue[900],
+         
+              color: (Colors.blue[900])!,
+
               offset: Offset(4, 4),
               blurRadius: 10,
               spreadRadius: 1,
             ),
              BoxShadow( 
-              color: Colors.blue[900],
+               color: (Colors.blue[900])!,
               offset: Offset(-4, -4),
               blurRadius: 10,
               spreadRadius: 1,

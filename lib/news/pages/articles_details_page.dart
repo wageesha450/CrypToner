@@ -6,7 +6,7 @@ import 'package:freshproject/news/model/article_model.dart';
 class ArticlePage extends StatelessWidget {
   final Article article;
 
-  ArticlePage({this.article});
+  ArticlePage({required this.article});
   @override
   Widget build(BuildContext context) {
     return Scaffold(

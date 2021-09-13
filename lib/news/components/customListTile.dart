@@ -34,12 +34,13 @@ Widget customListTile(Article article, BuildContext context) {
               height: 200.0,
               width: double.infinity,
               decoration: BoxDecoration(
-                image: DecorationImage( 
+
+              /*  image: DecorationImage( 
                  // backgroundImage: (profile.imgUrl == null) ? AssetImage('images/user-avatar.png') : NetworkImage(profile.imgUrl)
                   // change made here for error
-                  image:(article.urlToImage == null) ? Text("No image") :  NetworkImage(article.urlToImage),
+                  image:true ?(article.urlToImage == null) ? Text("No image") :  NetworkImage(article.urlToImage),
                   fit: BoxFit.cover
-                ),
+                ),*/
                 borderRadius: BorderRadius.circular(12.0),
               ),
             ),

@@ -21,7 +21,7 @@ class _NewsPageState extends State<NewsPage> {
         future: client.getArticle(),
         builder: (BuildContext context, AsyncSnapshot<List<Article>> snapshot) {
           if (snapshot.hasData) {
-            List<Article> articles = snapshot.data;
+             List<Article> articles = [];
             return ListView.builder(
               itemCount: articles.length,
               itemBuilder: (context, index) => 

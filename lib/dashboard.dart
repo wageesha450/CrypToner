@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:freshproject/caps/crpto_cap.dart';
 import 'package:freshproject/news/crypto_news.dart';
-
+import 'package:freshproject/signal/ui/views/main_view/main_view.dart';
 import 'setting/setting.dart';
 
 
@@ -14,7 +14,7 @@ class Dashboard extends StatefulWidget {
 class _DashboardState extends State<Dashboard> {
   int _selectedIndex = 0;
   List<Widget> _widgetOptions = <Widget>[
-  Text('Signal'),
+  NewsPage(),
   NewsPage(),
   CrptoCap(),
   SettingPage(),
